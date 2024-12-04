@@ -25,6 +25,16 @@ public class SortIntNumber {
 		// print after sorted the array
 		System.out.println("After sorted array :" + Arrays.toString(number));
 
+//		// sorting array with built-in method
+//		int[] number = { 34, 54, 11, 6, 23, 90, 82, 66 };
+//		// print before sorting the array
+//		System.out.println("Before Sorted array: " + Arrays.toString(number));
+//		Arrays.sort(number);
+//		// print after sorted the array
+//		System.out.println("After sorted array :" + Arrays.toString(number));	
+		
+		
+		
 	}
 
 }

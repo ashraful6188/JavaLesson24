@@ -13,11 +13,11 @@ public class Test {
 		String s = new String("Welcome");
 		s.length();
 		s.replace("w", "X");
-
+         // test employee class
 		Employee emp1 = new Employee();
 
-		emp1.eid = 7007;
-		emp1.name = "Smaith";
+		emp1.eid= 7007;
+		emp1.name = "Smith";
 		emp1.department = "Finance";
 		emp1.salary = 130000;
 

@@ -8,7 +8,7 @@ public class CheckPalindrome {
 	public static void main(String[] args) {
 
 		String input = "adda";
-		System.out.println("Given string is a plaindrome" + isPlaindrome(input));
+		System.out.println("Given string is a plaindrome " + isPlaindrome(input));
 
 	}
 

@@ -16,7 +16,7 @@ public class StringManipulation {
 		System.out.println("The length is : " + length);// 7
 		System.out.println(s.length()); // 11
 
-		// concat()- join multiple strings
+		// concat()-- join multiple strings
 		String s1 = "Welcome";
 		String s3 = " to java";
 		String s4 = " programing.";
@@ -48,7 +48,7 @@ public class StringManipulation {
 		System.out.println(s.contains("ium"));// true
 		System.out.println(s.contains("a S"));// true
 		// can not be possible for random character from string
-		System.out.println(s.contains("jlu"));
+		System.out.println(s.contains("jlu"));// false
 
 		// equals(), equalsIgnoreCase() --> compares two strings and returns true/false
 		s1 = "Welcome";
@@ -67,6 +67,7 @@ public class StringManipulation {
 		// substring() -- extracts/remove substring from the main string
 		System.out.println(s.substring(11));// java selenium automation
 		System.out.println(s.substring(11, 15));// java
+	
 
 		// toUpperCase() toLowerCase --- converts the cases
 		s = "Welcome";
@@ -75,6 +76,7 @@ public class StringManipulation {
 
 		// split() -- split or divide original string into multiple parts based on
 		// delimiter and  a String array
+		// ( //, *, %, ^, &, ())- Can not be use as delimiters 
 		s = "abc@xyz";
 		String a[] = s.split("@");
 		System.out.println(a[1]);
